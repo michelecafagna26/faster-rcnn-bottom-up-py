@@ -27,6 +27,7 @@ python setup.py build develop
 
 ### Quick start: Feature Extraction + Object Detection 
 
+
 ```
 from wrappers import FasterRCNNBottomUp
 import cv2
@@ -78,8 +79,9 @@ model.classes['thing_classes'][class_id]
 
 
 ## Acknowledgement
-original repo [airsplay]()
-The Caffe2PyTorch conversion code (not released here) is based on [Ruotian Luo](https://ttic.uchicago.edu/~rluo/)'s [PyTorch-ResNet](https://github.com/ruotianluo/pytorch-resnet) project. The project also refers to [Ross Girshick](https://www.rossgirshick.info/)'s old [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn) on its way.
+- original repo [airsplay]()
+- The Caffe2PyTorch conversion code (not released here) is based on [Ruotian Luo](https://ttic.uchicago.edu/~rluo/)'s [PyTorch-ResNet](https://github.com/ruotianluo/pytorch-resnet) project. 
+- The project also refers to [Ross Girshick](https://www.rossgirshick.info/)'s old [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn) on its way.
 
 
 ## References

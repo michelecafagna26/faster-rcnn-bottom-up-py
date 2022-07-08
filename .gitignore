@@ -4,9 +4,8 @@ instant_test_output
 inference_test_output
 
 
-*.jpg
 *.png
-*.txt
+
 
 # compilation and distribution
 __pycache__
@@ -37,5 +36,4 @@ dist/
 
 # project dirs
 /detectron2/model_zoo/configs
-/models
 /venv
