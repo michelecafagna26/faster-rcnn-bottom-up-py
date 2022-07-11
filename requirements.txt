@@ -4,3 +4,5 @@ torchvision==0.5.0
 numpy
 cython
 opencv-python
+cloudpickle
+imagesize
