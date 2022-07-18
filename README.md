@@ -1,6 +1,6 @@
 # Bottom-up Attention with Detectron2 (Pytorch)
 
-Extract features and bounding boxes prediction in a few lines of code.
+Extract features and bounding boxes prediction in a few lines of Python code.
 
 This repo is a cleaned version of [airsplay] (https://github.com/airsplay/py-bottom-up-attention) repo. For more details refer to that repo.
 
