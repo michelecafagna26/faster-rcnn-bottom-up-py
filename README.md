@@ -1,8 +1,8 @@
 # Bottom-up Attention with Detectron2 (Pytorch)
 
-This repo is a cleaned version of [airsplay] (https://github.com/airsplay/py-bottom-up-attention) repo. For more details refer to that repo.
-
 Extract features and bounding boxes prediction in a few lines of code.
+
+This repo is a cleaned version of [airsplay] (https://github.com/airsplay/py-bottom-up-attention) repo. For more details refer to that repo.
 
 The detectron2 system with **exactly the same model and weight** as the Caffe VG Faster R-CNN provided in [bottom-up-attetion](https://github.com/peteanderson80/bottom-up-attention).
 
