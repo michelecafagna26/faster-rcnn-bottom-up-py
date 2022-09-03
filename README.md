@@ -9,7 +9,7 @@ The detectron2 system with **exactly the same model and weight** as the Caffe VG
 ## Installation
 ```
 git clone https://github.com/michelecafagna26/faster-rcnn-bottom-up-py.git
-cd py-bottom-up-attention
+cd faster-rcnn-bottom-up-py
 
 # Install python libraries
 pip install -r requirements.txt
