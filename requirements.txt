@@ -1,9 +1,8 @@
 git+https://github.com/facebookresearch/fvcore.git
 torch==1.4.0
 torchvision==0.5.0
-numpy
-cython
-scikit-build
-opencv-python
-cloudpickle
-imagesize
+numpy==1.19.5
+Cython==0.29.3
+opencv-python==4.6.0.66
+cloudpickle==2.1.0
+imagesize==1.4.1
