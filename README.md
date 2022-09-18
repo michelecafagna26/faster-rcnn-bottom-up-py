@@ -7,7 +7,8 @@ This repo is a cleaned version of [airsplay] (https://github.com/airsplay/py-bot
 The detectron2 system with **exactly the same model and weight** as the Caffe VG Faster R-CNN provided in [bottom-up-attetion](https://github.com/peteanderson80/bottom-up-attention).
 
 ## Installation
-```
+
+```bash
 git clone https://github.com/michelecafagna26/faster-rcnn-bottom-up-py.git
 cd faster-rcnn-bottom-up-py
 
@@ -28,7 +29,7 @@ python setup.py build develop
 ### Quick start: Feature Extraction + Object Detection 
 
 
-```
+```python
 from wrappers import FasterRCNNBottomUp
 import cv2
 
@@ -45,7 +46,7 @@ instances, boxes = model([im], return_features=True)
 ```
 To access the predicted object class:
 
-```
+```python
 class_id = instances[0].pred_classes
 model.classes['thing_classes'][class_id]
 
